@@ -1,5 +1,7 @@
 provider "azurerm" {
   features {}
+  Subscription_id = "b2f1daf6-b7ad-414a-bb96-54efd9813520" # Azure sponsorship june 2024
+  tenant_id       = "ee949117-6c2c-4b2c-bb35-affcb976f574"
 }
 
 # Create a resource group
